@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>InforStudante Tools</title>
+  <style>
+    :root {
+      font-size: 62.5%;
+    }
+
+    body {
+      width: 278px;
+      background-color: transparent;
+      margin: 0 auto !important
+    }
+
+    div {
+      padding: 2em;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      background-color: #ffffff;
+    }
+
+    h1,
+    button,
+    a {
+      font-size: 2rem;
+      font-family: 'Courier New', Courier, monospace;
+    }
+
+    button {
+      font-size: 1.4rem;
+      background-color: #ffffff;
+      border: 0.1em solid #b3b3b3;
+      padding: 1em;
+      transition: all ease-out 100ms;
+      border-radius: 0.2rem;
+
+    }
+
+    button:hover {
+      background-color: #f3f3f3;
+      transition: all ease-in 100ms;
+    }
+
+    button:focus {
+      outline: none;
+      transition: all ease-in 500ms;
+      border: 0.1em solid #94a594;
+      background-color: #ddf8dd;
+    }
+
+    #author {
+      text-align: center;
+      font-size: 1.1rem;
+      display: block;
+      background-color: rgb(20, 25, 68);
+      padding: 0.5em;
+      color: rgb(255, 255, 255)
+    }
+  </style>
+</head>
+
+<body>
+  <div>
+    <h1>InforStudante Tools</h1>
+    <a id="pdf-download" href="#">
+      <button>
+        Download PDF
+      </button>
+    </a>
+  </div>
+  <a id="author" href="https://github.com/RodPaDev/inforstudante-tools">Created by RodPaDev</a>
+  <script src="script.js"></script>
+</body>
+
+</html>
